@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'etna-sans-serif';
+    src: url('Etna-Sans-serif.otf') format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'etna-sans-serif', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: white;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
