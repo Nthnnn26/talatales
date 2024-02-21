@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'etna-sans-serif';
+    src: url('Etna-Sans-serif.otf') format('opentype');
+}
+
+* {  
+    font-family: 'etna-sans-serif', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.index {
+    background: url('img/Landing Page BG.svg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo {
+    color: whitesmoke;
+}
+
+@media (max-width: 576px) and (orientation: portrait) {
+    .index {
+        background: url('img/Mobile Page Bg.svg');
+        background-size: cover; /* Ensure the background covers the entire viewport */
+        background-position: center;
+    }
+}
+
+.tour-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tour-box {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #333;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
